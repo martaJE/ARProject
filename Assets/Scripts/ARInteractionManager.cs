@@ -24,7 +24,7 @@ public class ARInteractionManager : MonoBehaviour
 
             item3DModel = value;
             item3DModel.transform.position = aRPointer.transform.position;
-            //item3DModel.transform.parent = aRPointer.transform;
+            item3DModel.transform.parent = aRPointer.transform;
             isInitialPosition = true;
 
         }

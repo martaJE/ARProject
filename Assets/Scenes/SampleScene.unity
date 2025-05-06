@@ -329,7 +329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 402406.84, y: -440}
+  m_AnchoredPosition: {x: 434228.3, y: -440}
   m_SizeDelta: {x: 0, y: 440}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &434585122
@@ -774,6 +774,7 @@ GameObject:
   - component: {fileID: 573332778}
   - component: {fileID: 573332777}
   - component: {fileID: 573332780}
+  - component: {fileID: 573332781}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -846,6 +847,23 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_RaycastPrefab: {fileID: 0}
+--- !u!114 &573332781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573332776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlanePrefab: {fileID: 0}
+  m_DetectionMode: 1
 --- !u!1 &642858207
 GameObject:
   m_ObjectHideFlags: 0
